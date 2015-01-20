@@ -20,11 +20,10 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	
+
 </head>
 
-<body>
-	<!--
+<body id="page-top">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -34,24 +33,27 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">David Xue</a>
+                <a class="navbar-brand" href="#page-top">David Xue</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">About me</a>
+                        <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="#">Timeline</a>
+                        <a href="#work-experience">Work Experience</a>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#education">Education</a>
+                    </li>
+					<li>
+                        <a href="#projects">Projects</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-	-->
+	
     <div class="intro-header">
 
         <div class="container">
@@ -76,74 +78,65 @@
 
         </div>
 
-		</div>
+	</div>
 	
-	<div class="about">
+	<div class="about" id="about-me">
 		<div class="container">
 			<div class="about-top">
 				<h3 class="top-title">About Me</h3>
 				<span class="line"></span>
 				<p class="about-p">Hi! I'm David! I study computer science at the University of Waterloo. I love coding, playing piano, reading novels, and learning anything ranging from new technologies, science, world history and geography.</p>
 				<div class="center">
-					<h3 class="top-title"></h3>
+					<h3 class="top-title"> </h3>
 					<a href="./resume.pdf" download="Hao Xue's Resume" class="download"><span style="margin: 10px 0px"></span>Download Resume</a>					
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--
-	<div class="experience">
+	<div class = "about" style="background-color: #f8f8f8" id="work-experience">
 		<div class="container">
-			<div class="exp-top">
-				<h3 class="top-title">Timeline</h3>
+			<div class="about-top">
+				<h3 class="top-title">Work Experience</h3>
 				<span class="line"></span>
-			</div>
-			<div class="exp-devide">
-				<h4>Experience</h4>
-				<span class="devide-line">
-				</span>
-				<label class="bag"></label>
-				<div class="exp-devide-grid-left">
-					<h5>Agile Software Engineer (Intern)</h5>
-					<small><a href="http://pivotallabs.com/">Pivotal Labs</a> . 2014</small>
-					<p>Developed new features for the Pivotal Tracker Android app, an agile project collaboration tool</p>
-					<p>Expanded Android unit test suite using Robolectric, Mockito and RoboGuice, while practicing TDD</p>
-					<p >Worked on a prototype iOS app that explored iOS 8 features</p>
-					<ul class="list-inline" style="font-weight: lighter">
-                        <li> Java </li>
-                        <li> Objective-C </li>
-                        <li> SQL </li>
-                    </ul>
-				</div>
-				<div class="exp-devide-grid-rightb">
-					<h5>SOFTWARE DEVELOPER IN TEST (INTERN)</h5>
-					<small><a href="http://sap.com/">SAP</a> . 2013</small>
-					<p>Developed a new content management web application for SAP Lumira</p>
-					<p>Implemented and helped design UNIX and Windows desktop application installers for SAP Business Objects</p>
-					<ul class="list-inline" style="font-weight: lighter">
-                        <li> C++ </li>
-						<li> Javascript <li>
-						<li> HTML <li>
-						<li> CSS <li>
-                        <li> Python </li>
-                        <li> SQL </li>
-                    </ul>
-				</div>
-			</div>
-			<div class="exp-devide education">
-				<h4>Education</h4>
-				<span class="devide-line" style="height: 220px">
-				</span>
-				<label class="book"></label>
-				<div class="exp-devide-grid-left">
-					<h5>BACHELORS DEGREE OF COMPUTER SCIENCE</h5>
-					<small>University of Waterloo . 2012 - 2017</small>
-					<p></p>
-				</div>
+				<h3 class="job-title">Agile Software Engineer (Intern)<a class="about-company-image" href = "http://www.pivotallabs.com"><img src="images/pivotallabs.png" height=36/></a></h3>
+				<ul class="about-details">
+					<li>Developed new features for the Pivotal Tracker Android app, an agile project collaboration tool</li>
+					<li>Expanded Android unit test suite using Robolectric, Mockito and RoboGuice, while practicing TDD</li>
+					<li >Worked on a prototype iOS app that explored iOS 8 features</li>
+				</ul>
+				<ul class="list-inline" style="font-size:16px">
+					<li> Java </li>
+					<li> Objective-C </li>
+					<li> SQL </li>
+				</ul>
+				<h3 class="job-title">Software Developer in Test (Intern)<a class="about-company-image" href = "http://www.sap.com"><img src="images/sap.png" height=36/></a></h3>
+				<ul class="about-details">
+					<li>Worked on the backend and frontend of new content management web application for SAP Lumira, a business intelligence and analytics software</li>
+					<li>Implemented and helped design a desktop application installer for Linux and Windows</li>
+				</ul>
+				<ul class="list-inline" style="font-size:16px">
+					<li> C++ </li>
+					<li> Javascript <li>
+					<li> HTML <li>
+					<li> CSS <li>
+					<li> Python </li>
+					<li> SQL </li>
+				</ul>
 			</div>
 		</div>
 	</div>
-	-->
+	<div class = "about" id="education">
+		<div class="container">
+			<div class="about-top">
+				<h3 class="top-title">Education</h3>
+				<span class="line"></span>
+				<h3 class="job-title">Bachelors Degree of Computer Science, Co-op<a class="about-company-image" href = "https://uwaterloo.ca/"><img src="images/waterloo.png" height=90/></a></h3>
+				<h3 class="university-title">University of Waterloo</h3>
+				<h3 class="university-title">September 2012 - Present</h3>
+			</div>
+		</div>
+	</div>
+
 	<!-- banner
     <div class="banner">
 
@@ -169,16 +162,36 @@
 
     </div>
 	-->
-    <footer>
+
+    <div class="content-section-a" id="projects">
         <div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-				  Copyright © 2015 by Hao (David) Xue
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h3 class="job-title">Chess</h2>
+					<ul class="list-inline" style="font-size:16px">
+						<li> C++ </li>
+						<li> X11 <li>
+					</ul>
+                    <p class="lead">A full-fledged chess game in C++ with a GUI built using the X11 graphics library. It features several AI levels, the highest of which is a minimax AI that is capable of competing with beginner to intermediate human players.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/BG_RJtxqxaQ" frameborder="0" allowfullscreen></iframe>         
 				</div>
-			</div>
+            </div>
+
         </div>
+
+    </div>
+	
+    <footer>
+        <div class="container"> Copyright © 2015 by Hao (David) Xue </div>
     </footer>
 
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/scrolling.js"></script>
+	
 </body>
 
 </html>
